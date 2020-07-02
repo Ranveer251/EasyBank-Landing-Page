@@ -363,7 +363,13 @@ li a:hover{
     padding: 20px 0;
     opacity: 1;
     box-shadow: -50px 150px 200px #000;
+    animation-name: mymove;
+    animation-duration: 2s;
     /* box-shadow: 10px 10px 15px hsl(233, 8%, 62%); */
+  }
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 100px;}
   }
   .navbar .menuLink{
     text-align: center;
